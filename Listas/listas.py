@@ -24,3 +24,15 @@ print(lista_cursos[4])
 
 sub_lista = lista_cursos[0:3]
 print(sub_lista)
+
+#[start:] -> Obtenemos los último elementos de la lista
+#[:end] -> Obtenemos los primeros elementos de la lista
+#[start:end:step] 
+
+sub_lista = lista_cursos[2:]
+print(sub_lista)
+
+
+sub_lista = lista_cursos[0:4:2]
+print(sub_lista)
+
